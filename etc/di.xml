@@ -9,4 +9,13 @@
     </type>
     <preference for="Mastering\SampleModule\Api\Data\ItemInterface" type="Mastering\SampleModule\Model\Item"/>
     <preference for="Mastering\SampleModule\Api\ItemRepositoryInterface" type="Mastering\SampleModule\Model\ItemRepository"/>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="mastering_items_grid_data_source" xsi:type="string">
+                    Mastering\SampleModule\Model\ResourceModel\Item\Grid\Collection
+                </item>
+            </argument>
+        </arguments>
+    </type>
 </config>
