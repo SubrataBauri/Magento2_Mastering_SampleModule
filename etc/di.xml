@@ -36,7 +36,7 @@
             </argument>
         </arguments>
     </virtualType>
-    <type name="Mastering\SampleModule\Console\Command\AddItem">
+    <type name="Mastering\SampleModule\Observer\Logger">
         <arguments>
             <argument name="logger" xsi:type="object">MasteringLogger</argument>
         </arguments>
