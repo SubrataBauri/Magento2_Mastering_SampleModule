@@ -19,7 +19,7 @@ class AddItem
 
     public function execute()
     {
-        if ($this->config->isEnabled()){
+        if ($this->config->isEnabled()) {
             $this->itemFactory->create()
                 ->setName('Scheduled Item')
                 ->setDescription('Created at ' . time())

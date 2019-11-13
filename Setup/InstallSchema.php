@@ -23,8 +23,8 @@ class InstallSchema implements InstallSchemaInterface
                 Table::TYPE_INTEGER,
                 null,
                 [
-                    'identity' => true, 
-                    'nullable' => false, 
+                    'identity' => true,
+                    'nullable' => false,
                     'primary' => true
                 ],
                 'Item ID'

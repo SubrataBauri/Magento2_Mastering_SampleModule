@@ -2,7 +2,6 @@
 
 namespace Mastering\SampleModule\Ui;
 
-
 use Magento\Ui\DataProvider\AbstractDataProvider;
 
 class DataProvider extends AbstractDataProvider
@@ -15,8 +14,8 @@ class DataProvider extends AbstractDataProvider
         $requestFieldName,
         $collectionFactory,
         array $meta = [],
-        array $data = [])
-    {
+        array $data = []
+    ) {
         parent::__construct($name, $primaryFieldName, $requestFieldName, $meta, $data);
         $this->collection = $collectionFactory->create();
     }

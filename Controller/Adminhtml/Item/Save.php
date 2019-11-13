@@ -12,8 +12,7 @@ class Save extends \Magento\Backend\App\Action
     public function __construct(
         Action\Context $context,
         ItemFactory $itemFactory
-    )
-    {
+    ) {
         $this->itemFactory = $itemFactory;
         parent::__construct($context);
     }
